@@ -44,12 +44,12 @@ import axios from "axios";
 import { getServerSideSitemap } from "next-sitemap";
 export const getServerSideProps = async (ctx) => {
   const result = await axios
-    .get(`http://192.168.0.201:8080/zayady/rest/test.product/getAllProducts`)
+    .get(`https://zayady.deltawy.com/rest/test.product/getAllProducts`)
     .then((res) => res.data.products);
     
   // const { data } = await res.data.products;
   const fields = await result.map((ele) => ({
-    loc: `http://192.168.0.201:8080/zayady/product/${ele.id}/${ele.name.replace(/\s/g, "-")}`,
+    loc: `https://zayady.deltawy.com/product/${ele.id}/${ele.name.replace(/\s/g, "-")}`,
     lastmod: ele.udat,
     priority: 0.7,
     changefreq: "daily",

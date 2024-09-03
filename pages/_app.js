@@ -165,8 +165,8 @@ function MyApp({ Component, pageProps, canonical }) {
 
 MyApp.getInitialProps = ({ ctx }) => {
   // const isProd = process.env.NODE_ENV === "production";
-  // const base = "https://zayady.deltawy.com";
-  const base = "http://192.168.0.201:8080/zayady";
+  const base = "https://zayady.deltawy.com";
+  // const base = "http://192.168.0.201:8080/zayady";
 
   const { asPath } = ctx;
   const canonical = base + asPath;

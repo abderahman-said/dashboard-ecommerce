@@ -2,7 +2,7 @@ import axios from "axios";
 import { getServerSideSitemap } from "next-sitemap";
 export const getServerSideProps = async (ctx) => {
   const result = await axios
-    .post(`http://192.168.0.201:8080/zayady/rest/test.categories/getAllCategories`,{
+    .post(`https://zayady.deltawy.com/rest/test.categories/getAllCategories`,{
         page : 0
     })
     .then((res) => res.data.cats);

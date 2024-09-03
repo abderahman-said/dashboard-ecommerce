@@ -32,9 +32,7 @@ const Auth = () => {
   );
   return (
     <>
-      <Head>
-        
-      </Head>
+  
     <div>
       <div className={styles.login}></div>
       <Container>

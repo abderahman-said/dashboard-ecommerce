@@ -32,11 +32,9 @@ const Auth = () => {
   );
   return (
     <>
-      <Head>
-        
-      </Head>
-    <div className="login-content">
-       <Container>
+       
+      <div className="login-content">
+        <Container>
           <div className="login-main">
             {loginn && <Login />}
             {register && <Register />}
@@ -44,8 +42,8 @@ const Auth = () => {
             {sendcode && <ResendCode />}
             {newpass && <NewPassword />}
           </div>
-      </Container>
-    </div>
+        </Container>
+      </div>
     </>
   );
 };

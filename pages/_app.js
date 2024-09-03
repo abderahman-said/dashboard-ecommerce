@@ -69,12 +69,12 @@ function MyApp({ Component, pageProps, canonical }) {
   return (
     <>
       <Head>
-        <title> zayady </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title> dashboard </title>
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content=" لمبه عاديه ليد 12 وات ابيض قلاووظ ضمان سنه اباليك مستورده اسبوت غاطس ثابت سى او بى وورم 5 وات فريم استرث دلايات مستورده كابلات كهربائيه اشكال واستخدامات مختلفه مسامير "
-        />
+          content="dashboard "
+         />
         <link rel="canonical" href={canonical} />
 
         <meta
@@ -144,21 +144,11 @@ function MyApp({ Component, pageProps, canonical }) {
           // as="font"
           crossOrigin="anonymous"
         /> */}
-        <meta
+        {/* <meta
           name="google-site-verification"
           content="58hkVcd4B84I1ZIT9F3p1DSHDrqB5qpMotBXJMkJ78c"
-        />
-        {/* <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-          crossOrigin="anonymous"
         /> */}
-        {/* <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" /> */}
-        {/* <link
-          href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
-          rel="stylesheet"
-        /> */}
+          
       </Head>
       {loading ? (
         <LoadingScreen />

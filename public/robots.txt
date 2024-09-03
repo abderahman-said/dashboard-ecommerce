@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zayady.deltawy.com
+
+# Sitemaps
+Sitemap: https://zayady.deltawy.com/sitemap.xml
+Sitemap: https://zayady.deltawy.com/products.index.xml
+Sitemap: https://zayady.deltawy.com/categories.index.xml

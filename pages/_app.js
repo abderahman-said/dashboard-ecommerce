@@ -70,7 +70,7 @@ function MyApp({ Component, pageProps, canonical }) {
     <>
       <Head>
         <title> dashboard </title>
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
           content="dashboard "
@@ -144,10 +144,10 @@ function MyApp({ Component, pageProps, canonical }) {
           // as="font"
           crossOrigin="anonymous"
         /> */}
-        {/* <meta
+         <meta
           name="google-site-verification"
           content="58hkVcd4B84I1ZIT9F3p1DSHDrqB5qpMotBXJMkJ78c"
-        /> */}
+        />  
           
       </Head>
       {loading ? (
